@@ -15,6 +15,7 @@
 
 </head>
 <body class="home-background">
+<!-- home-address -->
 <div class="container home-address-container">
     <div class="row home-address-frame">
         <div class="col-auto home-address-content">
@@ -39,6 +40,7 @@
         </div>
     </div>
 </div>
+<!-- home-menu -->
 <div class="container home-menu-container">
     <div class="row home-menu-frame">
         <a href="" class="col home-menu-content">
@@ -105,6 +107,32 @@
             <img src="/images/icon/hamburger.png" alt="패스트푸드">
             <span>패스트푸드</span>
         </a>
+    </div>
+</div>
+<!-- home-store-list -->
+<div class="container home-store-list-container">
+    <div class="row home-store-sorting-frame">
+        <div class="col home-store-sorting-title">
+            <span>골라먹는 맛집</span>
+        </div>
+        <div class="col home-store-sorting-content">
+            <button class="sorting-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#sorting-off">
+                <span>기본순</span>
+                <span class="material-symbols-outlined">south</span>
+            </button>
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="sorting-off">
+                <div class="offcanvas-header">
+                    <span class="offcanvas-title" id="offcanvasBottomLabel">정렬</span>
+                </div>
+                <div class="offcanvas-body">
+                    <span>기본순</span>
+                </div>
+                <div class="offcanvas-body">
+                    <span>주문 많은 순</span>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+        </div>
     </div>
 </div>
 

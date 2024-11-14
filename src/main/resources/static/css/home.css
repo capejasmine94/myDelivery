@@ -78,6 +78,7 @@ a {
 .home-menu-container {
     background-color: white;
     border-radius: 1.5rem 1.5rem 0 0;
+    border-bottom: 0.5px solid #797A7D;
 }
 .home-menu-frame {
     justify-content: space-between;
@@ -101,3 +102,41 @@ a {
     font-size: 1rem;
     color: black;
 }
+
+/* 홈 화면 전체 가게 목록 */
+.home-store-list-container {
+    margin-top: 0.8rem;
+    background-color: white;
+}
+.home-store-sorting-frame {
+    display: flex;
+    align-items: center;
+}
+.home-store-sorting-title {
+    padding-left: 1rem;
+}
+.home-store-sorting-title span {
+    font-size: 1.3rem;
+}
+.home-store-sorting-content {
+    display: flex;
+    justify-content: end;
+}
+.sorting-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1DC3BD;
+    background-color: white;
+    border-radius: 2rem;
+    width: 5.5rem;
+    height: 2.5rem;
+}
+.sorting-btn span:nth-child(2) {
+    font-size: 1rem;
+}
+/* 가게 정렬 오프캔버스 */
+#sorting-off {
+    font-size: 1.3rem;
+}
+
