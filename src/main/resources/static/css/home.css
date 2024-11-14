@@ -1,0 +1,103 @@
+/* 홈 화면 배경 */
+.home-background {
+    background-color: #f0f0f0;
+}
+/* a 태그 밑줄 삭제 */
+a {
+    text-decoration: none;
+}
+
+/* 홈 화면 주소 css */
+.home-address-container {
+    padding-top: 1.5rem;
+    padding-bottom: 0.25rem;
+}
+.home-address-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-address-content {
+    display: flex;
+    align-items: center;
+}
+
+.home-address-content span:nth-child(1) {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.home-address-content span:nth-child(2) {
+    font-size: 2rem;
+}
+
+.home-address-icon-group {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+/* 홈 화면 검색 css */
+.home-search-container {
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+}
+.home-search-box {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 3rem;
+    padding : 0 1rem;
+    border: 1px solid #1DC3BD;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.home-search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: #797A7D;
+    font-size: 1.2rem;
+}
+.home-search-btn {
+    color: #1DC3BD;
+    border-radius: 50%;
+    background: white;
+    border: none;
+}
+.search-btn span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+/* 홈 화면 메뉴 선택 */
+.home-menu-container {
+    background-color: white;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.home-menu-frame {
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.home-menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 25%;
+    max-width: 25%;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+}
+.home-menu-content img {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 0.5rem;
+}
+.home-menu-content span {
+    font-size: 1rem;
+    color: black;
+}
